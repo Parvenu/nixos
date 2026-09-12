@@ -1,0 +1,20 @@
+# These belong to the target host, never the public desktop module.
+hardware-configuration.nix
+hardware-*.nix
+local.nix
+host.nix
+secrets/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local build/editor artefacts and backups.
+result
+result-*
+.direnv/
+__pycache__/
+*.pyc
+*.before-cosmic
+*.before-nixos-cosmic-*
